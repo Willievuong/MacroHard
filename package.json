@@ -6,8 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "client-install": "npm install --prefix client",
-    "function-install": "npm install --prefix functions",
-    "install": "concurrently \"npm run client-install \" \" npm run function install \" \" npm install \"", 
+    "function-install": "npm install --prefix functions", 
     "start": "nodemon server.js"
   },
   "repository": {
