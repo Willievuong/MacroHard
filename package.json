@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/willievuong/MacroHard/issues"
   },
-  "homepage": "https://github.com/willievuong/MacroHard#readme"
+  "homepage": "https://github.com/willievuong/MacroHard#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "concurrently": "^4.0.1",
+    "express": "^4.16.4"
+  }
 }
